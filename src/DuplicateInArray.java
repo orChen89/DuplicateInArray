@@ -1,3 +1,4 @@
+import java.util.Arrays;
 import java.util.Scanner;
 
 public class DuplicateInArray {
@@ -12,7 +13,7 @@ public class DuplicateInArray {
 
            System.out.println("Please enter the array values: ");
 
-        for (int i =  0; i < numOfArr.length - 1; i++) {
+        for (int i =  0; i < numOfArr.length; i++) {
 
             numOfArr[i] = SCANNER.nextInt();
         }
